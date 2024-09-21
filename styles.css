@@ -251,9 +251,10 @@ p {
     background-color: #0b0c10;
     padding: 20px;
     border-radius: 8px;
-    width: 250px;
+    width: 350px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .poster img {
@@ -261,6 +262,7 @@ p {
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    align-items: stretch;
 }
 
 .poster p {
@@ -273,12 +275,13 @@ p {
 /* FAQ Section */
 #faq h3 {
     color: #66fcf1;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #faq p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 /* FAQ Section Styling */
