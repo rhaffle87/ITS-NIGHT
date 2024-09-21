@@ -260,6 +260,7 @@ p {
     width: 80%;
     height: auto;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .poster p {
