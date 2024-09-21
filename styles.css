@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0b0c10; /* Dark theme background */
-    color: #c5c6c7; /* Light gray text */
+    font-family: 'Lora', serif; /* Font umum untuk teks paragraf */
+    background-color: #0b0c10;
+    color: #c5c6c7;
     line-height: 1.6;
 }
 
@@ -19,25 +19,38 @@ header {
     text-align: center;
 }
 
+/* Header */
+header {
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Font tegas dan modern */
+}
+
 header h1 {
     margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700; /* Menggunakan Montserrat yang tebal */
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Make nav items wrap on smaller screens */
-}
-
-nav ul li {
-    margin: 0 20px;
+    justify-content: center; /* Center the navbar items */
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 nav ul li a {
-    color: #66fcf1; /* Light blue accent for links */
-    text-decoration: none;
     font-size: 18px;
+    font-weight: 500;
+    color: #c5c6c7;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 nav ul li a:hover {
@@ -54,39 +67,172 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-h2, h3 {
-    color: #66fcf1; /* Light blue for headings */
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    text-align: center;
-}
-
-.slideshow {
+.home-content {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap; /* For responsiveness */
     margin-bottom: 20px;
-    flex-wrap: wrap; /* Wrap images on smaller screens */
 }
 
-.slideshow img {
-    width: 300px;
+.logo-image {
+    width: 450px; /* Adjust as needed */
+    margin-right: 20px;
+}
+
+.home-text {
+    max-width: 600px;
+    text-align: center;
+    
+}
+
+.home-text h2 {
+    font-family: 'Playfair Display', serif; /* Font elegan untuk judul */
+    font-size: 60px;
+    color: #66fcf1;
+    margin-bottom: 10px;
+    justify-content: left;
+    text-align: left;
+}
+
+.home-text p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #c5c6c7;
+}
+
+/* Band List */
+.band-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.band-list li {
+    margin: 15px;
+    text-align: center;
+}
+
+.band-list img {
+    width: 200px;
     height: 200px;
-    margin: 10px;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.band-list {
-    list-style: none;
-    text-align: center;
+.band-list p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #c5c6c7;
 }
 
-.band-list li {
+/* Section Titles */
+h2 {
+    color: #66fcf1;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Font elegan untuk judul */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #66fcf1;
+    text-align: center;
+    font-family: 'Playfair Display', serif; /* Font elegan untuk judul */
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* Paragraphs and General Text */
+p {
+    text-align: center;
+    font-family: 'Lora', serif; /* Font serif yang mudah dibaca dan estetis */
     font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+/* New Styles for Event Info */
+#event-info p {
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+#event-info strong {
+    color: #66fcf1; /* Highlight important information */
+}
+
+#event-info h3 {
+    color: #66fcf1; /* Light blue heading */
+    margin-top: 30px;
+    text-align: left;
+}
+
+#event-info {
+    background-color: #0b0c10; /* Slightly darker background */
+    padding: 30px;
+    border: 1px solid #45a29e;
+    border-radius: 8px;
+}
+
+/* Sponsorship Section */
+#sponsorship {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically (if needed) */
+    flex-direction: column; /* Ensure content stacks vertically */
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sponsorship ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Sponsorship Section */
+#sponsorship ul li {
+    font-family: 'Montserrat', sans-serif; /* Konsisten dengan header */
+    font-size: 18px;
+    color: #66fcf1;
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
+}
+
+#sponsorship ul li img {
+    width: 200px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Add spacing between logo and text */
+    border-radius: 4px; /* Optional: add rounded corners to the logo */
+}
+
+
+/* FAQ Section */
+#faq h3 {
+    color: #66fcf1;
+    margin-bottom: 10px;
+}
+
+#faq p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* FAQ Section Styling */
+#faq {
+    background-color: #1f2833;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .registration-form {
@@ -110,6 +256,7 @@ p {
 
 .registration-form label {
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; /* Font modern dan bersih */
     font-size: 16px;
     color: #c5c6c7;
 }
@@ -123,6 +270,7 @@ p {
     border-radius: 4px;
     background-color: #1f2833;
     color: #c5c6c7;
+    font-family: 'Roboto', sans-serif; 
 }
 
 .registration-form input::placeholder {
@@ -157,7 +305,7 @@ footer {
 }
 
 .footer-logo img {
-    width: 100px;
+    width: 115px;
     margin-bottom: 10px;
 }
 
@@ -185,20 +333,6 @@ footer {
 /* Responsive Design: Mobile First */
 
 /* Small Devices (<= 768px) */
-@media (min-width: 768px) {
-    .footer-container {
-        flex-direction: column; /* Stack items vertically */
-    }
-    
-    .footer-logo {
-        margin-bottom: 15px;
-    }
-
-    .footer-links {
-        display: flex;
-        gap: 20px;
-    }
-}
 
 @media (max-width: 768px) {
     section {

@@ -6,60 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITS Night</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header Section -->
     <header>
-        <h1>ITS Night</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#registration">Registration</a></li>
-                <li><a href="#closing">Closing</a></li>
+                <li><a href="#event-info">Event Info</a></li> 
+                <li><a href="#sponsorship">Sponsorship</a></li>
+                <li><a href="#faq">FAQ</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Home Section -->
     <section id="home">
-        <h2>Welcome to ITS Night</h2>
-        <p>Join us for an unforgettable evening of music and entertainment!</p>
-        <div class="slideshow">
-            <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRpG811-PosFBjLq9c6ivLuGEVtWCQe-NgXQcPl1fQfK1OCFtwJ5_Vu53PKcesxOZCKqLiTKYgoQfdNqxM" alt="Guest Star 1">
-            <img src="https://web-xlrvm.s3.ap-southeast-3.amazonaws.com/images/post/45fe9bb3-41e5-48a6-8fae-f58ac515eac0.jpg" alt="Guest Star 2">
-            <img src="https://zetizens.id/wp-content/uploads/2024/09/Bernadya.jpg" alt="Guest Star 3">
+        <div class="home-content">
+            <img src="Image\Untitled-1.png" alt="ITS Night Logo" class="logo-image">
+            <div class="home-text">
+                <h2>Welcome to ITS Night</h2>
+                <p>Join us for an unforgettable evening of music and entertainment!</p>
+            </div>
         </div>
         <h3>Bands Registered to Perform</h3>
         <ul class="band-list">
-            <li>Band A</li>
-            <li>Band B</li>
-            <li>Band C</li>
-            <!-- Add more bands as necessary -->
+            <li>
+                <img src="Image\WhatsApp Image 2024-09-21 at 21.25.33_ce3cfb1c.jpg" alt="Band A">
+                <p>ITS JAZZ</p>
+            </li>
+            <li>
+                <img src="Image\ukm musik.jpg" alt="Band B">
+                <p>UKM MUSIK</p>
+            </li>
+            <li>
+                <img src="Image\BLOOEBEND.jpg" alt="Band C">
+                <p>BLOOEBEND</p>
+            </li>
         </ul>
     </section>
 
     <!-- Registration Section -->
     <section id="registration">
         <h2>Registration</h2>
-
         <!-- Band Registration -->
-        <div class="registration-form">
-            <h3>Band Registration</h3>
-            <form>
-                <label for="bandName">Band Name:</label>
-                <input type="text" id="bandName" name="bandName" required><br>
-
-                <label for="memberCount">Number of Members:</label>
-                <input type="number" id="memberCount" name="memberCount" required><br>
-
-                <label for="bandEmail">Band Contact Email:</label>
-                <input type="email" id="bandEmail" name="bandEmail" required><br>
-
-                <button type="submit">Register Band</button>
-            </form>
-        </div>
-
-
         <div class="registration-form">
             <h3>Audience Registration</h3>
             <form>
@@ -75,6 +67,43 @@
                 <button type="submit">Get Tickets</button>
             </form>
         </div>
+    </section>
+
+    <!-- Event Info Section -->
+    <section id="event-info">
+        <h2>Event Information</h2>
+        <p><strong>Tanggal dan Waktu:</strong> Sabtu, 2 Nov 2024</p>
+        <p><strong>Lokasi:</strong> Taman Alumni, ITS</p>
+        <p><strong>Harga Tiket:</strong> Rp. 15,000</p>
+        <p><strong>Email:</strong> itsnightconcert@gmail.com</p>
+        <p><strong>Contact Person:</strong> Feby, +123-456-7890</p>
+
+        <h3>Cara Pembelian Tiket</h3>
+        <p>Anda dapat membeli tiket secara langsung di lokasi acara atau melalui website resmi kami.</p>
+    </section>
+
+    <!-- Sponsorship Section -->
+    <section id="sponsorship">
+        <h2>Sponsorship</h2>
+        <ul>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsNUMFTvP2SY_otM5kkmCtUo7Art79E2OhA&s" alt="Pertamina Logo"> Pertamina</li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiccs0K-4NwqD13L0KKY3Quv2ATa_-w-Lew&s" alt="PLN Logo"> PLN</li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Spotify_logo_horizontal_black.jpg" alt="Spotify Logo"> Spotify</li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYxo4jcuvIpDPiRK0r75c1Xgz1MUiHpCUiA&s" alt="Telkomsel Logo"> Telkomsel</li>
+        </ul>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2>FAQ</h2>
+        <h3>Q: Bagaimana cara mendaftar sebagai band?</h3>
+        <p>A: Anda bisa mendaftar melalui formulir yang tersedia di bagian pendaftaran.</p>
+        
+        <h3>Q: Berapa harga tiket?</h3>
+        <p>A: Harga tiket adalah Rp. 15,000 per orang.</p>
+
+        <h3>Q: Apakah tiket bisa dibeli online?</h3>
+        <p>A: Iya, Anda bisa membeli tiket melalui website resmi kami atau langsung di lokasi acara.</p>
     </section>
 
     <!-- Closing Section -->
