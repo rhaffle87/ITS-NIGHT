@@ -221,7 +221,7 @@ p {
     padding: 40px;
     margin: 20px auto;
     width: 90%;
-    max-width: 500px;
+    max-width: 1200px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -257,7 +257,7 @@ p {
 }
 
 .poster img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 8px;
 }
