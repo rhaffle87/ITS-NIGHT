@@ -215,6 +215,59 @@ p {
     border-radius: 4px; /* Optional: add rounded corners to the logo */
 }
 
+/* Posters Section */
+#posters {
+    background-color: #1f2833; /* Same background as other sections */
+    padding: 40px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#posters h2 {
+    color: #66fcf1;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+#posters p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #c5c6c7;
+    margin-bottom: 30px;
+}
+
+.posters-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.poster {
+    background-color: #0b0c10;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.poster p {
+    margin-top: 10px;
+    color: #c5c6c7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
 
 /* FAQ Section */
 #faq h3 {
