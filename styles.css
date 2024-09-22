@@ -77,11 +77,12 @@ section {
 
 
 .logo-image {
-    width: 100%; /* Agar responsif */
-    max-width: 300px; /* Batas maksimal lebar logo */
+    width: 300%; /* Agar responsif */
+    max-width: 425px; /* Batas maksimal lebar logo */
     height: auto; /* Menjaga proporsi */
     margin: 0 auto; /* Untuk memastikan logo berada di tengah */
     display: block;
+    margin-right: 50px;
 }
 
 .home-text {
@@ -92,11 +93,12 @@ section {
 
 .home-text h2 {
     font-family: 'Playfair Display', serif; /* Font elegan untuk judul */
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: #66fcf1;
     margin-bottom: 20px 0;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
+    display: flex;
+    text-align: left;
 }
 
 .home-text p {
@@ -405,7 +407,18 @@ footer {
     }
 
     .home-text h2 {
+        justify-content: center;
+        text-align: center;
         font-size: 1.8rem; /* Sesuaikan ukuran teks di layar kecil */
+        margin-top: 20px;
+    }
+
+    .logo-image {
+        width: 100%; /* Agar responsif */
+        max-width: 300px; /* Batas maksimal lebar logo */
+        height: auto; /* Menjaga proporsi */
+        margin: 0 auto; /* Untuk memastikan logo berada di tengah */
+        display: block;
     }
 
     .registration-form input {
