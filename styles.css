@@ -95,8 +95,8 @@ section {
     font-size: 2rem;
     color: #66fcf1;
     margin-bottom: 20px 0;
-    justify-content: left;
-    text-align: left;
+    justify-content: center;
+    text-align: center;
 }
 
 .home-text p {
